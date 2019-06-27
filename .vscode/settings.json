@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "*.tcc": "cpp",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "istream": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp"
+    }
+}
