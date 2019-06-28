@@ -10,7 +10,6 @@ if [[ "${unamestr}" == 'Darwin' ]]; then
    BOOST=/usr/local
    CXX_COMPILER=g++
    export ARCH="Darwin"
-   bash ./scripts/potato_build_darwin.sh
 else
    OS_NAME=$( cat /etc/os-release | grep ^NAME | cut -d'=' -f2 | sed 's/\"//gI' )
 

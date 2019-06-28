@@ -29,8 +29,11 @@ else()
    set(TEST_BUILD_TYPE ${CMAKE_BUILD_TYPE})
 endif()
 
+if(NOT DEFINED ENV{SYSTEM_CONTRACTS_PATH})
+   message(FATAL_ERROR "not defined environment variable:SYSTEM_CONTRACTS_PATH")
+endif()
 
-add_subdirectory(pocker)
+add_subdirectory(poker)
 add_subdirectory(dice)
 
 if (APPLE)
