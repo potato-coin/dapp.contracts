@@ -68,4 +68,4 @@ printf '\t |_|      \____/   |_|/_/    \_\|_|   \____/ \n'
 printf "\t                                             \n${txtrst}"
 
 printf "\\tFor more information:\\n"
-printf "\\tPOTATO website: https://potatocoin.com\\n"
+printf "\\tPOTATO website: https://www.potatocoin.com\\n"
