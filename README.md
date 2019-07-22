@@ -6,16 +6,16 @@ The design of the POTATO blockchain calls for a number of smart contracts that a
 
 This repository contains examples of these privileged contracts that are useful when deploying, managing, and/or using an POTATO blockchain.  They are provided for reference purposes:
 
-   * [pc.system](https://github.com/potato/potato.contracts/tree/master/pc.system)
-   * [pc.msig](https://github.com/potato/potato.contracts/tree/master/pc.msig)
-   * [pc.wrap](https://github.com/potato/potato.contracts/tree/master/pc.wrap)
+   * [pc.system](https://github.com/POTATO-COIN/potato.contracts/tree/master/pc.system)
+   * [pc.msig](https://github.com/POTATO-COIN/potato.contracts/tree/master/pc.msig)
+   * [pc.wrap](https://github.com/POTATO-COIN/potato.contracts/tree/master/pc.wrap)
 
 The following unprivileged contract(s) are also part of the system.
-   * [pc.token](https://github.com/potato/potato.contracts/tree/master/pc.token)
+   * [pc.token](https://github.com/POTATO-COIN/potato.contracts/tree/master/pc.token)
 
 Dependencies:
-* [potato v1.4.x](https://github.com/POTATO/eos/releases/tag/v1.4.4)
-* [potato.cdt v1.4.x](https://github.com/POTATO/potato.cdt/releases/tag/v1.4.1)
+* [potato v1.4.x](https://github.com/POTATO-COIN/potato/releases/tag/v1.4.4)
+* [potato.cdt v1.4.x](https://github.com/POTATO-COIN/potato.cdt/releases/tag/v1.4.1)
 
 To build the contracts and the unit tests:
 * First, ensure that your __potato__ is compiled to the core symbol for the POTATO blockchain that intend to deploy to.
